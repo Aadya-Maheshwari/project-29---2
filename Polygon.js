@@ -9,7 +9,7 @@ class Polygon{
         push()
         translate(this.body.position.x,this.body.position.y,this.r);
         imageMode(CENTER);
-        image(this.poly,0,0,this.width,this.height);
+        image(this.image,0,0,50,50);
         pop();
     }
 }
